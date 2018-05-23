@@ -1,0 +1,52 @@
+header {
+   background: url(../images/main-picture.jpg) center / cover;
+   height: 60vh;
+   justify-content: center;
+   text-align: center;
+ }
+
+body {
+  padding-bottom: 5rem;
+}
+
+ h1 {
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   color: #ECE7E7;
+   font-size: 100px;
+ }
+
+ p.slogan {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #ECE7E7;
+  font-size: 25px;
+}
+main {
+   max-width: 900px;
+ }
+
+ .project-description {
+   padding-left: 0;
+ }
+
+ .project img {
+   width: 100%;
+ }
+
+ footer.mdl-mini-footer {
+    bottom: 0;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+footer.mdl-mini-footer > ul {
+     margin: auto;
+     font-size: 3rem;
+   }
+
+ @media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
